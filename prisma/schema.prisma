@@ -11,8 +11,7 @@ generator client {
 datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
-  // url      = "postgres://kcmodvon:4VfSofqNZNRh97Z4ukQnxmf6LdX2rlUA@abul.db.elephantsql.com/kcmodvon"
-  // url      = "postgres://avnadmin:AVNS_s8gmg6V2BX-BDE-8g5u@pg-2b9666a7-krishgptamcs-6ee2.l.aivencloud.com:14798/defaultdb?sslmode=require"
+
 }
 
 model User {
